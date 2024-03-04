@@ -1,0 +1,56 @@
+.basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.list {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 6px;
+    height: 60px;
+    width: 300px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    width: 46px;
+    height: 46px;
+}
+
+.price{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.title{
+ margin-left: 6px;
+}
+
+.totalPrice{
+position: absolute;
+top: 720px;
+left: 22px;
+display: flex;
+flex-direction: column;
+}
+
+.buyNow{
+    width: 280px;
+    height: 30px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FFD369;
+    transition: transform 0.3s ease-in-out;
+}
+
+.buyNow:hover{
+    transform: scale(1.1);
+}

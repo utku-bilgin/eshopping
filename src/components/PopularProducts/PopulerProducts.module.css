@@ -1,0 +1,14 @@
+.PopularProducts {
+  padding: 16px 80px 0 80px;
+}
+
+h1 {
+  padding: 60px;
+}
+
+.PopularProductsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

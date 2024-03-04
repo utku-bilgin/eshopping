@@ -1,0 +1,53 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+  background: rgb(253, 29, 29);
+  background: #222831;
+  height: 120px;
+}
+
+.navbar .nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .nav a {
+  text-decoration: none;
+  color: #EEEEEE;
+  font-size: 24px;
+}
+
+.navbar .nav a:hover {
+  color: #FFD369;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 20px;
+}
+
+.basketBar {
+  position: absolute;
+  width: 320px;
+  height: 800px;
+  top: 120px;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(133, 133, 133, 0.295);
+  backdrop-filter: blur(10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.3s;
+}
+
+.basketBar.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+

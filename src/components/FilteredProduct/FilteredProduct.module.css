@@ -1,0 +1,39 @@
+.FilteredProducts {
+  display: flex;
+  position: relative
+}
+
+.filteredProductsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filter{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    height: 1000px;
+    gap: 20px;
+    background-color: rgba(133, 133, 133, 0.295);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.category{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.select{
+    width: 160px;
+    height: 40px;
+}
