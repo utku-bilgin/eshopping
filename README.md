@@ -6,7 +6,7 @@
 💅 Ek olarak, CSS modülleri uygulamanın estetiğini artırmada kritik bir rol oynadı, görsel olarak çekici ve kullanıcı dostu bir deneyim sunarak.<br />
 👨‍💻 Bu projeyi paylaşmaktan heyecan duyuyorum ve geri bildiriminizi bekliyorum!<br />
 
-<img src="./public/web01.png" alt="web" style="height: 600;">
+<img src="./public/web001.png" alt="web" style="height: 600;">
 
 <img src="./public/web02.png" alt="web" style="height: 600;">
 
