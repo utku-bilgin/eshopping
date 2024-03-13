@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "./Navbar.module.css";
+import style from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 import Basket from "../Basket/Basket";
 import { useBasketContext } from '../../contex/BasketContext';
@@ -13,8 +13,6 @@ const NavBar = () => {
     setBasketVisible((prevVisibility) => !prevVisibility);
   };
 
-
-  
   return (
     <div className={style.navbar}>
       <div className={style.logoContainer}>
