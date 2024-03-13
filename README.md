@@ -1,5 +1,5 @@
 🚀 React ve JavaScript ile geliştirdiğim online alışveriş uygulamasının lansmanını heyecanla duyuruyorum! 🎉 <br />
-🔗 Uygulamayı görmek ve denemek için [buraya tıklayabilirsiniz](). <br />
+🔗 Uygulamayı görmek ve denemek için [buraya tıklayabilirsiniz](https://eshopping-coral.vercel.app/). <br />
 📚 Bu uygulama, kullanıcıların istekleri doğrultusunda ürünleri filtre ederek arayabilecekleri, istedikleri ürünlerden bir alışveriş sepeti oluşturabilmesini sağlıyor. <br />
 🔍 RestAPI ile aldığım API'yi Axios mükemmel bir şekilde yönetti.<br />
 🔄 State yönetimi için Context API kullanarak verileri yönettim, bu da uygulamanın verimliliğini artırdı ve kod karmaşıklığını azalttı.<br />
