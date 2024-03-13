@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "axios";
-import style from "./Product.module.css";
+import style from "./product.module.css";
 import { useBasketContext } from "../../contex/BasketContext";
 import { useProductContext } from "../../contex/ProductContext";
 
