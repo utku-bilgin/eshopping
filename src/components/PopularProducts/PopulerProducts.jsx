@@ -9,7 +9,7 @@ const PopulerProducts = () => {
     <div className={style.PopularProducts}>
       <h1><i className="fa-solid fa-star"></i> Popular Products</h1>
       <div className={style.PopularProductsList}>
-        {products.map((product) => (
+        {products.slice(0, 8).map((product) => (
             <ProductCard key={product.id} className={style.card} product={product} {...product} />
         ))}
       </div>
