@@ -8,11 +8,29 @@
   background: #222831;
   height: 120px;
 }
+.navbar .nav .basket {
+  position: relative;
+}
 
 .navbar .nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
+}
+
+.navbar .nav .basket .basketcount{
+  position: absolute;
+  right: -8px;
+  bottom: -8px;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EEEEEE;
+  font-size: 12px;
 }
 
 .navbar .nav a {

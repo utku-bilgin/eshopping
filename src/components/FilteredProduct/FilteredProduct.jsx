@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import style from "./FilteredProduct.module.css";
 import ProductCard from "../ProductCard/ProductCard.jsx";
 import { useProductContext } from "../../contex/ProductContext.jsx";
-import { useProductDetailContext } from "../../contex/ProductDetailContext.jsx";
-import { Link } from "react-router-dom";
 
 const FilteredProducts = () => {
   const { products, categories } = useProductContext();
@@ -11,7 +9,6 @@ const FilteredProducts = () => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [maxPrice, setMaxPrice] = useState("");
 
-  const { fetchProductDetail } = useProductDetailContext();
   useEffect(() => {
     filterProducts();
   }, [selectedCategory, maxPrice, products]);
@@ -64,9 +61,7 @@ const FilteredProducts = () => {
 
       <div className={style.filteredProductsList}>
         {filteredProducts.map((product) => (
-          <Link key={product.id} to={`/product/${product.id}`}>
-          <ProductCard className={style.card} {...product} />
-        </Link>
+          <ProductCard key={product.id} className={style.card} product={product} {...product} />
         ))}
       </div>
     </div>

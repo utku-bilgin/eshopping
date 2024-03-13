@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './Basket.module.css';
 import { useBasketContext } from '../../contex/BasketContext';
 
@@ -17,7 +16,7 @@ const Basket = () => {
       {cartItems.length === 0 ? (
         <p>Your basket is empty.</p>
       ) : (
-        <ul>
+        <ul className={style.basketcontainer}>
           {cartItems.map((product, index) => (
             <li key={index} className={style.list}>
               <img

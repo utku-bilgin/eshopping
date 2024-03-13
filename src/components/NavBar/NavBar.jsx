@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import style from "./NavBar.module.css";
 import { NavLink } from "react-router-dom";
 import Basket from "../Basket/Basket";
@@ -22,12 +22,15 @@ const NavBar = () => {
         <ul>
           <li><NavLink to='/'>HOME</NavLink></li>
           <li><NavLink to='/products'>PRODUCTS</NavLink></li>
-          <li>
+          <li className={style.basket}>
             <a
               href=""
               className="fa-solid fa-basket-shopping"
               onClick={toggleBasketVisibility}
             ></a>
+            <div className={style.basketcount}>
+                  {cartItems.length}
+            </div>
           </li>
         </ul>
       </div>
