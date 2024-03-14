@@ -31,7 +31,7 @@ const NavBar = () => {
               className="fa-solid fa-basket-shopping"
               onClick={toggleBasketVisibility}
             ></a>
-            <div className={style.basketcount}>
+            <div className={style.basketcount} onClick={toggleBasketVisibility}>
                   {cartItems.length}
             </div>
           </li>

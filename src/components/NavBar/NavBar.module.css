@@ -31,6 +31,7 @@
   align-items: center;
   color: #EEEEEE;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .navbar .nav a {
